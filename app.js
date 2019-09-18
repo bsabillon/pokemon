@@ -17,6 +17,8 @@ database
   });
 
 
+  app.use('/pokemons',require('./routes/pokemons'));
+  
 
 
   app.listen(PORT,console.log(`Server started on port ${PORT}`));
