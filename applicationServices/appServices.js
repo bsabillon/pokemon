@@ -106,7 +106,7 @@ var appServices = {
         .then(pokemon=>{
             response
             .status(200)
-            .send('Pokemon has been disabled successfully!')
+            .send('Pokemon has been deleted successfully!')
         })
         .catch(error=>
             response.send("Error: "+error))
